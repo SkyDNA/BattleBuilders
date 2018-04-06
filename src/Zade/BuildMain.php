@@ -35,7 +35,7 @@ use pocketmine\Server;
 
 class BuildMain extends PluginBase implements Listener {
 
-        public $prefix = TE::GOLD . "    »• " . TE::DARK_RED. TE::BOLD . "Battle" . TE::YELLOW." Builders". TE::RESET . TE::GOLD . " •«  " . TE::WHITE ."";
+        public $prefix = TE::GOLD . "    »< " . TE::DARK_RED. TE::BOLD . "Build" . TE::YELLOW." Battle". TE::RESET . TE::GOLD . " >«  " . TE::WHITE ."";
 	public $mode = 0;
 	public $arenas = array();
 	public $currentLevel = "";
